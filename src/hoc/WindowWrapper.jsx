@@ -49,7 +49,11 @@ const WindowWrapper = (Component, windowKey) => {
                     zIndex,
                     position: 'absolute',
                     top: '10%',
-                    left: '10%'
+                    left: '10%',
+                    // minWidth: '950px', // Increased min-width so layout doesn't break
+                    // minHeight: '400px',
+                    // width: '1050px',    // <--- Change this to your desired default width
+                    // height: '650px',   // Adjusted height to maintain aspect ratio
                 }}
                 className="absolute"
             >
